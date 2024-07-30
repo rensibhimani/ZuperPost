@@ -1,0 +1,123 @@
+.client-wrp{
+    padding: 470px 0 150px;
+}
+.client-wrp h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #0D0D12;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto 10px;
+}
+.client-wrp p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #6F767E;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.client-slider .slick-slide {
+    margin: 0 15px;
+}
+.client-slider .slick-list {
+    margin: 0 -15px;
+}
+
+.client-block{
+    padding: 0 0 100px;
+}
+.client-box{
+    padding: 30px 50px;
+    border-radius: 25px;
+    background: url('../images/client-lg-back1.png') 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 30px rgba(212,209,255,0.35);
+}
+.client-img{
+    border-radius: 15px;
+    border: 7px solid #9D98EA;
+}
+.client-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.yellow-block .client-box{
+    box-shadow: 0 25px 30px rgba(255,245,209,0.75);
+    background-image: url('../images/client-lg-back2.png');
+}
+.yellow-block .client-img{
+    border: 7px solid #F3B819;
+}
+
+.blue-block .client-box{
+    box-shadow: 0 25px 30px rgba(209,244,255,0.45);
+    background-image: url('../images/client-lg-back3.png');
+}
+.blue-block .client-img{
+    border: 7px solid #64B5F5;
+}
+
+.green-block .client-box{
+    box-shadow: 0 25px 30px rgba(168,246,243,0.35);
+    background-image: url('../images/client-lg-back4.png');
+}
+.green-block .client-img{
+    border: 7px solid #07AFA7;
+}
+
+.client-slider .slick-prev,
+.client-slider .slick-next{
+    position: absolute;
+    right:0;
+    left: auto;
+    border: none;
+    color: transparent;
+    background-color: transparent;   
+    width: auto;
+    height: auto;
+    font-size: 0;
+    color: transparent;
+    z-index: 5;
+    bottom: 0px;
+    outline: none !important;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    transition: .4s linear;
+}
+.client-slider .slick-prev:before,
+.client-slider .slick-next:before {
+    width: 65px;
+    height: 65px;
+    content: "\f061";
+    font-family: 'Font Awesome 5 Pro';
+    color: #183044;
+    background: #fff;
+    font-weight:400;
+    line-height: 65px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 16px 40px rgba(151, 151, 151, 0.10);
+    border-radius: 15px;
+    text-align: center;
+    font-size:24px;
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+}
+.client-slider .slick-prev {
+    left:0;
+    right: auto;
+}
+.client-slider .slick-prev:before {
+    content: "\f060";
+}
+.client-slider .slick-prev:hover:before,
+.client-slider .slick-next:hover:before{
+    border-color: #FCBC17;
+    background: #fff;
+}
+/* **** End Clients **** */
